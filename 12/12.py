@@ -1,8 +1,8 @@
 class Employee:
-    name = "Jeb"
-    surname = "Smith"
-    age = 43
-    salary = 2500
+    name = "Viktor"
+    surname = "Letniy"
+    age = 32
+    salary = 12000
 
     def __init__(self, name, surname, salary):
         self.name = name
@@ -19,7 +19,7 @@ class Employee:
         self.salary = int(round(self.salary * 1.1))
         print(self.salary)
 
-employee = Employee("Jon", "Kotin", 1200)
+employee = Employee("Iggy", "Pop", 30000)
 employee.ShowName()
 employee.ShowSurname()
 employee.AddSalary()

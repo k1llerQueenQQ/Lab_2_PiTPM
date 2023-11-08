@@ -1,17 +1,18 @@
 class Employee:
-    __name = "Jeb"
-    surname = "Smith"
-    __age = 43
-    __salary = 2500
+    name = "Viktor"
+    surname = "Letniy"
+    age = 32
+    salary = 12000
+
 
     def __init__(self, name, surname, salary):
-        self.__name = name
+        self.name = name
         self.surname = surname
-        self.__salary = salary
+        self.salary = salary
 
     def Show(self):
-        print(self.__name, self.surname, self.__age, self.__salary)
+        print(self.name, self.surname, self.age, self.salary)
 
-employee = Employee("Jon", "Kotin", 1200)
+employee = Employee("Iggy", "Pop", 30000)
 employee.Show()
 

@@ -1,7 +1,7 @@
 class Employee:
-    __name = "Jon"
-    __age = 20
-    __salary = 100
+    __name = "Viktor"
+    __age = 27
+    __salary = 10000
 
     def __init__(self, name, age, salary):
         self.__name = name
@@ -18,7 +18,7 @@ class Employee:
         print(self.__salary)
 
 
-employee = Employee("Skibidi", 10, 0)
+employee = Employee("Egor", 10, 0)
 employee.getName()
 employee.getAge()
 employee.getSalary()
