@@ -1,5 +1,5 @@
 class Employee:
-    __name = "Jon"
+    __name = "John"
     __age = 20
     __salary = 100
 
@@ -27,11 +27,11 @@ class Employee:
         self.__salary = salary
 
 
-employee = Employee("Skibidi", 10, 0)
+employee = Employee("Viktor", 10, 0)
 print(employee.getName())
 print(employee.getAge())
 print(employee.getSalary())
-employee.setName("Bran")
+employee.setName("Brian")
 employee.setAge(66)
 employee.setSalary(121)
 print(employee.getName())

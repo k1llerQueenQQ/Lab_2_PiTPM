@@ -1,5 +1,5 @@
 class Student:
-    name= "Викторович"
+    name= "Виктор"
     surname= "Солнечный"
     def show(self):
         return self.cape(self.name)
